@@ -2,9 +2,9 @@ library("tools", lib.loc="/Library/Frameworks/R.framework/Versions/3.4/Resources
 library("readxl", lib.loc="/Library/Frameworks/R.framework/Versions/3.5/Resources/library")
 library("dplyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.5/Resources/library")
 
-setwd("/Users/greegorov/Documents/biotech/GNR088 ELISA 29.11.18 96well 004,007/")
+setwd("/Users/.../")
 num.of.top <- 84
-lf<-list.files(path = "/Users/greegorov/Documents/biotech/GNR088 ELISA 29.11.18 96well 004,007/", pattern=".xls")
+lf<-list.files(path = "/Users/.../", pattern=".xls")
 
 merged.concetrations <- matrix(ncol = 3)
 ELISA.names <- matrix(nrow=8,ncol=12)
